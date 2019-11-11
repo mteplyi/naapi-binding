@@ -1,0 +1,14 @@
+{
+  "name": "addon",
+  "license": "MIT",
+  "version": "0.0.0",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp build",
+    "rebuild": "node-gyp rebuild"
+  },
+  "dependencies": {
+    "node-addon-api": "^1.6.2",
+    "node-gyp": "^3.8.0"
+  }
+}

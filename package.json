@@ -1,0 +1,11 @@
+{
+  "name": "binding",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "addon"
+  ],
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
